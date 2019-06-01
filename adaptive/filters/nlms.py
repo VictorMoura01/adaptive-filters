@@ -5,7 +5,7 @@ Created on Thu May 30 20:38:34 2019
 @author: Victor
 """
 import numpy as np
-from adaptive.filtros.filtro_base import Filter
+from adaptive.filters.filter import Filter
 
 class NLMS(Filter):
     '''
